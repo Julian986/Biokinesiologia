@@ -35,23 +35,11 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div>
-          <h4 className="font-semibold text-gray-900">Información</h4>
-          <ul className="mt-3 grid gap-2">
-            <li><a href="#" className="hover:text-blue-600">Aviso legal</a></li>
-            <li><a href="#" className="hover:text-blue-600">Política de privacidad</a></li>
-            <li><a href="#" className="hover:text-blue-600">Términos y condiciones</a></li>
-          </ul>
-        </div>
       </div>
 
       <div className="border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-gray-500">
           <p>© {new Date().getFullYear()} Lic. Pablo Pérez - Biokinesiólogo. Todos los derechos reservados.</p>
-          <div className="flex items-center gap-4">
-            <a href="#" className="hover:text-blue-600">Instagram</a>
-            <a href="#" className="hover:text-blue-600">LinkedIn</a>
-          </div>
         </div>
       </div>
     </footer>

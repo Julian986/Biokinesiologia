@@ -13,51 +13,51 @@ type Testimonio = {
 const testimonios: Testimonio[] = [
 	{
 		nombre: 'María S.',
-		texto: 'Después de mi cirugía de rodilla, Pablo me ayudó a recuperar completamente la movilidad. Su profesionalismo y calidez humana son excepcionales.',
+		texto: 'Me atendí con Pablo y además de sentirme muchísimo mejor a nivel físico, lo recomiendo porque se nota que ama lo que hace.',
 		rating: 5,
 		fecha: 'Nov 2024',
 		fuente: 'Google',
-		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1753711317/photo-1544005313-94ddf0286df2_qicg9u.webp',
+		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1770779838/unnamed_43_s30a8r.webp',
 	},
 	{
-		nombre: 'Carlos R.',
-		texto: 'Llegué con una lesión deportiva y gracias al tratamiento de Pablo pude volver a jugar fútbol sin dolor. Muy recomendable.',
+		nombre: 'Elena.',
+		texto: 'Excelente profesional, dedicado y con vocación.',
 		rating: 5,
-		fecha: 'Oct 2024',
+		fecha: 'Oct 2026',
 		fuente: 'Google',
-		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1753711316/photo-1500648767791-00dcc994a43e_alwlur.webp',
+		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1770779838/unnamed_45_odssh3.webp',
 	},
 	{
-		nombre: 'Elena M.',
-		texto: 'La evaluación muscular que me realizó fue excelente. Noté mejoras desde la primera sesión. Un gran profesional.',
+		nombre: 'Carla',
+		texto: 'Tiene una energía tan linda que lo que te enseña, lo aprendes al toque y te queda para toda la vida.',
 		rating: 5,
 		fecha: 'Sep 2024',
 		fuente: 'Doctoralia',
-		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1755631766/photo-1502685104226-ee32379fefbe_dc6oxf.webp',
+		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1770779838/unnamed_40_xl5xir.webp',
 	},
 	{
-		nombre: 'Roberto J.',
-		texto: 'Después de mi ACV, el tratamiento de biokinesiología de Pablo fue fundamental para mi recuperación. Excelente atención.',
+		nombre: 'Jesica',
+		texto: 'Tu dedicación a la kinesiología es verdaderamente admirable. Sos un modelo a seguir. Gracias por cuidar la salud y el bienestar de tus pacientes.',
 		rating: 5,
-		fecha: 'Ago 2024',
+		fecha: 'Ago 2023',
 		fuente: 'Google',
-		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1753711316/photo-1500648767791-00dcc994a43e_alwlur.webp',
+		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1770779838/unnamed_44_zogn5h.webp',
 	},
 	{
 		nombre: 'Lucía P.',
-		texto: 'Mi problema de movilidad mejoró mucho con las sesiones. Pablo es muy dedicado y explica todo el proceso claramente.',
+		texto: 'Excelente profesional, responsable, comprometido, muy eficiente, abierto a las demandas, una persona muy humana, realmente recomendable.',
 		rating: 5,
 		fecha: 'Jul 2024',
 		fuente: 'Doctoralia',
-		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1753711317/photo-1544005313-94ddf0286df2_qicg9u.webp',
+		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1770779838/unnamed_42_qvw2ky.webp',
 	},
 	{
 		nombre: 'Diego F.',
-		texto: 'Excelente profesional. Me trató una contractura cervical y el alivio fue inmediato. Muy recomendable en Mendoza.',
+		texto: 'Excelente en todo aspecto.',
 		rating: 5,
 		fecha: 'Jun 2024',
 		fuente: 'Google',
-		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1755631766/photo-1502685104226-ee32379fefbe_dc6oxf.webp',
+		avatar: 'https://res.cloudinary.com/dzoupwn0e/image/upload/v1770779838/unnamed_41_nwufyw.webp',
 	},
 ]
 
@@ -86,7 +86,6 @@ export default function Testimonios() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
         <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900">Testimonios</h2>
-        <p className="mt-1 text-sm text-orange-600 font-medium">Reemplazar por los reales</p>
       </div>
       <p className="mt-2 text-gray-600 text-center max-w-2xl mx-auto">Lo que dicen mis pacientes sobre los tratamientos de biokinesiología.</p>
 
@@ -161,9 +160,6 @@ export default function Testimonios() {
           </div>
         </div>
 
-        <div className="mt-8 text-center">
-          <a href="#contacto" className="inline-block text-blue-600 font-medium hover:underline">Ver más testimonios</a>
-        </div>
       </div>
     </section>
   )
